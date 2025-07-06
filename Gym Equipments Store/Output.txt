@@ -1,0 +1,149 @@
+Output :
+
+
+PS D:\Onedrive\Desktop\Gym Equipments Store> java Main     
+? Found equipment.txt. Reading contents...
+? Reading line: Treadmill,35000.0
+? Reading line: Dumbbell Set,1200.0
+? Reading line: Exercise Bike,18000.0
+? Reading line: Pull-up Bar,900.0
+? Reading line: Kettlebell,700.0
+? Reading line: Barbell Rack,5000.0
+? Reading line: Leg Press Machine,25000.0
+? Reading line: Rowing Machine,22000.0
+? Reading line: Adjustable Bench,4000.0
+? Reading line: Cross Trainer,28000.0
+? Reading line: Resistance Bands,450.0
+? Reading line: Foam Roller,650.0
+? Reading line: 2,1200.0
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 1
+
+--- Available Equipment ---
+1. Treadmill - ?35000.0
+2. Dumbbell Set - ?1200.0
+3. Exercise Bike - ?18000.0
+4. Pull-up Bar - ?900.0
+5. Kettlebell - ?700.0
+6. Barbell Rack - ?5000.0
+7. Leg Press Machine - ?25000.0
+8. Rowing Machine - ?22000.0
+9. Adjustable Bench - ?4000.0
+10. Cross Trainer - ?28000.0
+11. Resistance Bands - ?450.0
+12. Foam Roller - ?650.0
+13. 2 - ?1200.0
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 2
+
+--- Available Equipment ---
+1. Treadmill - ?35000.0
+2. Dumbbell Set - ?1200.0
+3. Exercise Bike - ?18000.0
+4. Pull-up Bar - ?900.0
+5. Kettlebell - ?700.0
+6. Barbell Rack - ?5000.0
+7. Leg Press Machine - ?25000.0
+8. Rowing Machine - ?22000.0
+9. Adjustable Bench - ?4000.0
+10. Cross Trainer - ?28000.0
+11. Resistance Bands - ?450.0
+12. Foam Roller - ?650.0
+13. 2 - ?1200.0
+Enter equipment number to buy: 2
+Dumbbell Set added to cart.
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 2
+
+--- Available Equipment ---
+1. Treadmill - ?35000.0
+2. Dumbbell Set - ?1200.0
+3. Exercise Bike - ?18000.0
+4. Pull-up Bar - ?900.0
+5. Kettlebell - ?700.0
+6. Barbell Rack - ?5000.0
+7. Leg Press Machine - ?25000.0
+8. Rowing Machine - ?22000.0
+9. Adjustable Bench - ?4000.0
+10. Cross Trainer - ?28000.0
+11. Resistance Bands - ?450.0
+12. Foam Roller - ?650.0
+13. 2 - ?1200.0
+Enter equipment number to buy: 4
+Pull-up Bar added to cart.
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 3
+
+--- Your Bill ---
+Dumbbell Set - ?1200.0
+Pull-up Bar - ?900.0
+Total Amount: ?2100.0
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 4
+Enter equipment name: Bend barbell
+Enter price: 800 
+? Added successfully!
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 1
+
+--- Available Equipment ---
+1. Treadmill - ?35000.0
+2. Dumbbell Set - ?1200.0
+3. Exercise Bike - ?18000.0
+4. Pull-up Bar - ?900.0
+5. Kettlebell - ?700.0
+6. Barbell Rack - ?5000.0
+7. Leg Press Machine - ?25000.0
+8. Rowing Machine - ?22000.0
+9. Adjustable Bench - ?4000.0
+10. Cross Trainer - ?28000.0
+11. Resistance Bands - ?450.0
+12. Foam Roller - ?650.0
+13. 2 - ?1200.0
+14. Bend barbell - ?800.0
+
+--- Gym Equipment Buying Website ---
+1. View Equipment
+2. Buy Equipment
+3. View Bill
+4. Add Equipment (Admin)
+5. Exit
+Enter your choice: 5
+Thank you for visiting our Website!
+PS D:\Onedrive\Desktop\Gym Equipments Store> 

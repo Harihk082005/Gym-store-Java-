@@ -13,15 +13,15 @@ public class Store {
         File file = new File("equipment.txt");
 
         if (!file.exists()) {
-            System.out.println("❌ File does not exist at: " + file.getAbsolutePath());
+            System.out.println("File does not exist at: " + file.getAbsolutePath());
             return;
         }
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-            System.out.println("✅ Found equipment.txt. Reading contents...");
+            System.out.println("Found equipment.txt. Reading contents...");
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println("📦 Reading line: " + line);
+                System.out.println("Reading line: " + line);
                 String[] parts = line.split(",");
                 if (parts.length == 2) {
                     String name = parts[0].trim();
@@ -30,9 +30,9 @@ public class Store {
                 }
             }
         } catch (IOException e) {
-            System.out.println("❌ Error reading file: " + e.getMessage());
+            System.out.println("Error reading file: " + e.getMessage());
         } catch (NumberFormatException e) {
-            System.out.println("❌ Invalid price format in file.");
+            System.out.println("Invalid price format in file.");
         }
     }
 
@@ -44,7 +44,7 @@ public class Store {
                 writer.newLine();
             }
         } catch (IOException e) {
-            System.out.println("❌ Error saving data: " + e.getMessage());
+            System.out.println("Error saving data: " + e.getMessage());
         }
     }
 
@@ -70,7 +70,7 @@ public class Store {
     public void addEquipment(String name, double price) {
         equipmentList.add(new Equipment(name, price));
         saveToFile();
-        System.out.println("✅ Added successfully!");
+        System.out.println("Added successfully!");
     }
 
   

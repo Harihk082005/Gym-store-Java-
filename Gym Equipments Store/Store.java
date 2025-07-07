@@ -8,7 +8,7 @@ public class Store {
         loadFromFile();
     }
 
-    // ✅ Load equipment from equipment.txt
+    
     private void loadFromFile() {
         File file = new File("equipment.txt");
 
@@ -36,7 +36,7 @@ public class Store {
         }
     }
 
-    // ✅ Save equipment list to file
+  
     public void saveToFile() {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("equipment.txt"))) {
             for (Equipment e : equipmentList) {
@@ -48,7 +48,6 @@ public class Store {
         }
     }
 
-    // ✅ Display equipment in console
     public void displayEquipment() {
         System.out.println("\n--- Available Equipment ---");
         if (equipmentList.isEmpty()) {
@@ -60,7 +59,6 @@ public class Store {
         }
     }
 
-    // ✅ Return equipment by index
     public Equipment getEquipment(int index) {
         if (index >= 0 && index < equipmentList.size()) {
             return equipmentList.get(index);
@@ -68,14 +66,14 @@ public class Store {
         return null;
     }
 
-    // ✅ Add new equipment and save
+    
     public void addEquipment(String name, double price) {
         equipmentList.add(new Equipment(name, price));
         saveToFile();
         System.out.println("✅ Added successfully!");
     }
 
-    // ✅ Get total number of items
+  
     public int totalItems() {
         return equipmentList.size();
     }
